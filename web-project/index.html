@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Project 0
+        </title>
+        <link rel="icon" type="image/x-icon" href="images\favicon.ico">
+        <link rel="stylesheet" href="stylesheet.css">
+        <script>
+            function myfunction(){
+                document.getElementById("colorchange").style.backgroundColor = "pink";
+            }
+            function otherfunction(){
+                document.getElementById("reverse").style.backgroundColor = "orange";
+            }
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>
+            This is my first project on VS Code.
+        </h1>
+<!--This is a paragraph-->
+        <p id="colorchange">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit consequatur ipsam quo, eaque, accusantium aliquid consectetur dignissimos, inventore quidem asperiores ipsum. Natus, iusto. Velit saepe veniam quod fugiat expedita. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione qui, blanditiis nesciunt consectetur ducimus alias distinctio sunt reiciendis quaerat facilis nemo similique. Vero consequatur ipsa suscipit reprehenderit sunt alias cum!
+        </p>
+
+        <button type="button" onclick="myfunction()">Click Me!</button>
+        <button type="button" onclick="otherfunction()">Click Me to reverse</button>
+
+
+        <h1 id="reverse">Jump to chapter</h1>
+        <ul>
+            <li><a href="#c1">Chapter 1</a></li>
+            <li><a href="#c2">Chapter 2</a></li>
+            <li><a href="#c3">Chapter 3</a></li>
+        </ul>
+
+        <picture>
+            <source srcset="images/image1.jpg" media="(max-width: 600px)">
+            <source srcset="images/image2.jpg" media="(max-width: 1000px)">
+            <img src="images/image2.jpg" alt="image" style="width:auto, height: 400px;">
+        </picture>
+
+        <div class="backgroundsection" style="background-image: url(images/background-image.jpg);">
+            <h1 id="heading">
+                Hey there!
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus fugit consequatur ipsam quo, eaque, accusantium.
+            </p>
+        </div>
+
+        <iframe src="http://oceanofgames.com/" height="500px" width="1000px" style="border: 4px solid blue;" frameborder="0"></iframe>
+
+        <h1 id="c1">Chapter 1</h1>
+        <p>This is a new chapter</p>
+
+        <h1 id="c2">Chapter 2</h1>
+        <p>This is a new chapter</p>
+
+        <h1 id="c3">Chapter 3</h1>
+        <p>This is a new chapter</p>
+        
+    </body>
+</html>

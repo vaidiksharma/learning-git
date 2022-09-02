@@ -1,0 +1,29 @@
+h1 {
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: cadetblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button1 {
+    background-color: aqua;
+    padding: 10px;
+}
+
+.button2 {
+    background-color: yellow;
+}
+
+.backgroundsection {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100%;
+}
+
+#heading {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
